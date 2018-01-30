@@ -1,0 +1,35 @@
+body { 
+  text-align:center;
+  background: #f2f2f2;
+  font-family: Helvetica;
+}
+
+/* Main Container Wrapper */
+.content {
+  margin: 25px auto 0 auto;
+  max-width: 960px;
+  background: #fff;
+  font-family: Helvetica;
+  position: relative
+    ;
+}
+
+/* Image Container Wrapper */
+.display-container {
+  text-align: center;
+  margin: 0 auto;
+  max-height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mySlides {
+  width: 100%; /*Scale to show full image*/
+}
+
+.display-container h2 {
+  position: absolute;
+  bottom: -10px;
+  right: 10px; 
+  color: black;
+}
